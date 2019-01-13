@@ -1,9 +1,10 @@
 # Node.js-MySQL
 
 ## Overview:
-Bamazon is a simple command line node application that mimics a department storefront using the npm [inquirer](https://www.npmjs.com/package/inquirer) package, npm [mySQL](https://www.npmjs.com/package/mysql) package, and the mySQL database backend. Upon running the application, the customer interface displays a table list of all items for sale and each item's respective item ID number, product name, and unit price. The customer is then prompted with the following two messasges:
-    * Please enter the ID of the product you would like to buy:
-    * How many units of the product would you like to buy? 
+Bamazon is a simple command line node application that mimics a department storefront using the npm [inquirer](https://www.npmjs.com/package/inquirer) package, npm [mySQL](https://www.npmjs.com/package/mysql) package, and the mySQL database backend. Upon running the application, the customer interface displays a table list of all items for sale and each item's respective item ID number, product name, and unit price. The customer is then prompted with the following two messages:
+   * Please enter the ID of the product you would like to buy:
+   * How many units of the product would you like to buy?
+
 Once completed, the mySQL database confirms if there are sufficient units in stock of the desired item to fill the customer's order. If the order can be completed, the new stock quantity is updated in the mySQL database, and the customer receives a message that their order has been successfully placed and is shown the total cost of the order. If the desired quantity is not available the order is not processed, and the customer is notified of the insufficient quantity.
 
 ## Demo Video Links:
